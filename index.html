@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Сайт начинающего верстальщика</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>SEDONA</title>
   </head>
+
   <body>
-    <header>
-      <nav>
-        На главную
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="" >Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Серце
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <main>
-      <article>
-        День первый. Как я забыл покормить кота
+    <a class="navigation-logo" href="index.html">
+      <img class="page-header-logo" alt="Логотип SEDONA ." src="">
+    </a>
+    <h3> WELCOME</h3>
+    <h1>SEDONA</h1>
+    <h4>"Because the Grand Canyonsucks!"</h4>
+    <h4> <p>Седона — небольшой городок в Аризоне,
+      заслуживающий большего!</p> </h4>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <h4>Настоящий городок</h4>
+      <h5>— №1 —</h5>
+      <h5>Седона — не аттракцион для туристов, там течёт своя жизнь</h5>
+      <h4>Жильё</h4>
+      <h5>Рекомендуем пожить в настоящем мотеле,  всё как в кино!</h5>
+      <h4>Еда</h4>
+      <h5>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</h5>
+      <h4>Сувениры</h4>
+      <h5>Не только китайского, но и настоящего местного производства!</h5>
+      <h4>Там есть мост дьявола</h4>
+      <h5>— №2 —</h5>
+      <h5>Да, по нему можно пройти! Если вы осмелитесь, разумеется</h5>
+      <h4>Небольшая площадь</h4>
+      <h5>— №3 —</h5>
+      <h5>Все достопримечательности находятся очень близко</h5>
+      <h4>Красивая дорога</h4>
+      <h5>— №4 —</h5>
+      <h5>Ехать в Седону из Лас-Вегаса совсем не скучно!</h5>
+      <h4>Мало туристов</h4>
+      <h5>— №5 —</h5>
+      <h5>Большинство едет в Гранд Каньон и толпится там</h5>
+<h3>Заинтересовались?</h3>
+<h5>Укажите предполагаемые даты поездки,
+  и мы покажем вам лучшие предложения гостиниц в Седоне
+  </h5>
+  <button>ПОИСК ГОСТИНИЦЫ В Седоне</button>
+  <h3>Подпишитесь на рассылку</h3>
+<h4>Только полезная информация и никакого спама,
+  честное бойскаутское!</h4>
 
-        Кто бы мог подумать, что семантика это так важно, мне срочно нужно было об этом поговорить.
+  <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
 
-        Взгляд упал на кота. Кот издал настойчивое «Мяу». И я понял — пришло время для первой записи в блог. И покормить кота.
-      </article>
-      <aside>
-        Здесь могла быть ваша реклама.
-      </aside>
-    </main>
-    <footer>
-      Подвал сайта
-    </footer>
+    <label for="newsletter-email"></label>
+    <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+
+    <button class="button newsletter-button" type="submit">
+      <span class="visually-hidden">Подписатся</span>
+    </button>
+    <section class="footer-social">
+      <h2 class="page-footer-title"></h2>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Твиттер</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Инстаграм</span>
+          </a>
+        </li>
+      </ul>
+      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+    </section>
+  </form>
+<h2>+7 (812) 812-12-12</h2>
   </body>
 </html>

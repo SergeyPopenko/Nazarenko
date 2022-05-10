@@ -1,0 +1,30 @@
+.first-argument {
+    background: #83B3D3; 
+  }
+  .second-argument{
+    background: rgba(131, 179, 211, 0.12)
+  }
+  .third-argument{
+    background: #FFFFFF; 
+}
+.four-argument{
+    background: rgba(131, 179, 211, 0.12);
+}
+.fifth-argument {
+    background: #83B3D3;
+}
+
+  .sixth-argument {
+    background: rgba(131, 179, 211, 0.12);
+}
+
+  .seventh-argument {
+    background: rgba(131, 179, 211, 0.2);
+}
+.eighth-argument {
+    background: rgba(131, 179, 211, 0.12);
+}
+.first-button{
+    background: #756257;
+border-radius: 10px;
+}
